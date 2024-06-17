@@ -1,0 +1,193 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/*---------------------
+  Header
+-----------------------*/
+
+.header {
+	margin: 0;
+}
+
+.header__logo a {
+	display: inline-block;
+}
+
+.header__menu {
+	list-style-type: disc;
+	text-align: center;
+    background-color: #FF9900;
+    margin: 0;
+}
+
+.header__menu ul li {
+	list-style: disc;
+	display: inline-block;
+	position: relative;
+	margin-right: 016px;
+    background: #FF9900;
+
+    
+}
+
+.header__menu ul li.active a {
+	
+	color: #ffffff;
+}
+
+.header__menu ul li:hover a {
+	color: #ffffff;
+}
+
+.header__menu ul li:hover .dropdown {
+	list-style-type: disc;
+	top: 62px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.header__menu ul li:hover .dropdown li a {
+	list-style-type: disc;
+	background: transparent;
+}
+
+.header__menu ul li:last-child {
+	margin-right: 0;
+}
+
+.header__menu ul li .dropdown {
+	list-style-type: disc;
+	position: absolute;
+	left: 0;
+	top: 82px;
+	width: 150px;
+	background: #ffffff;
+	text-align: left;
+	padding: 5px 0;
+	z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.header__menu ul li .dropdown li {
+	list-style-type: disc;
+	display: block;
+	margin-right: 0;
+}
+
+.header__menu ul li .dropdown li a {
+	list-style-type: disc;
+	font-size: 14px;
+	color: #111111;
+	font-weight: 500;
+	padding: 5px 20px;
+}
+
+.header__menu ul li a {
+	font-size: 15px;
+	color: #ffffff;
+	display: block;
+	font-weight: 700;
+	-webkit-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+	padding: 20px;
+}
+
+.header__menu ul li a span {
+	position: relative;
+	font-size: 17px;
+	top: 2px;
+}
+
+.header__right {
+	text-align: right;
+	padding: 20px 0 15px;
+}
+
+.header__right a {
+	display: inline-block;
+	font-size: 18px;
+	color: #ffffff;
+	margin-right: 30px;
+}
+
+.header__right a:last-child {
+	margin-right: 0;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+
+
+/* parte curso */
+
+#hero {
+    width: 592px;
+    margin: 0 auto 30px;
+}
+
+#hero img {
+    margin-bottom: 1px;
+    width: 448px;
+    height: 223px;
+}
+
+h1 { 
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+span, a {
+    color: #FF9900;
+}
+
+
+
+p, #footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0;
+}
+
+#footer {
+    text-decoration: none;
+}
+
+/* a+a pega o a anterior a ele tenha um a*/
+#footer a + a {
+    margin-left: 28px;
+
+}
+
+.line {
+    width: 568px;
+    height: 0px;
+
+    margin: 0 auto 8px;
+
+    border: 1px solid #1b3044;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

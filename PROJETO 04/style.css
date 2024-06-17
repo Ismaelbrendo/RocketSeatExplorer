@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%; /*transforma cada 1rem em 10px;*/
+
+}
+
+/*REM = Root EM */
+/*1rem = 16px
+EXEMPLO 40PX PARA RM = 40 DIVIDIDO PARA 16*/
+
+body {
+    background-color: #ece9fd;
+    padding: 6.0rem 2.3rem 6.6rem;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+}

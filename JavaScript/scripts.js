@@ -1,0 +1,10 @@
+console.log([
+    "Ismael",
+    "Israel",
+    "Maria",
+    "José",
+    12,
+    41,
+    123,
+    21
+])

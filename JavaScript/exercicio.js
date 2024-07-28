@@ -38,3 +38,17 @@ console.log(`${name} de idade ${age} pesa ${weight} kg`)
 
 // 5. Declarar um array de nome students e vazio
 let students = []
+
+/* 6. Reatribua valor para a variavel acima, colocando dentro dela o objeto student
+      da questao 4. (Nao copiar e colar o objeto, mas usar o objeto criado e inserir no array)
+*/
+
+let students = [
+        student
+]
+
+/* 7. Coloque no console o valor da posicao zero do array acima
+*/  
+
+    console.log(students[0])
+    

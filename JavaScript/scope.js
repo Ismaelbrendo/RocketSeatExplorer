@@ -8,7 +8,8 @@ console.log('existe x antes do bloco?', x)
 }
 console.log('x dentro do bloco:', x)
 
-//scope let
+//scope let 
+//scope let e const sao locais e so funcionam no escopo onde foi criado
 console.log('existe y antes do bloco?', y)
 
 

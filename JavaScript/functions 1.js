@@ -5,12 +5,12 @@
 // declarations - declaracao da funcao
 //function statement
 function createPhrases() {
-    console.log("Estudar nao leva ninguem a nada")
-    console.log("Aprender e ser triste")
-    console.log("Sempre procurar as do job")
+    console.log("Estudar é o caminho...");
+    console.log("Aprender e se liberte...");
+    console.log("Sempre melhorar")
 }
 
 // executar funcao - execute function
 createPhrases()
 
-console.log("CABO ESSA PORRA")
+console.log("fim")

@@ -47,3 +47,6 @@ while (option != 3) {
 }
     
 console.log(option, items)
+
+
+//teste
